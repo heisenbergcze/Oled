@@ -1,0 +1,6 @@
+{
+  "name": "Karviná OLED",
+  "description": "Živý srážkový radar pro Karvinou (Meteopress & radarová animace) s převodem do 128×64 1-bit OLED a přenosem do ESP32 přes Wi-Fi nebo Bluetooth na I2C displej.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

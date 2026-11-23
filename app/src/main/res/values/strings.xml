@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Karviná OLED</string>
+    <string name="app_subtitle">RADAR → ESP32 I2C 0.96"</string>
+
+    <!-- Navigation -->
+    <string name="nav_radar">Radar</string>
+    <string name="nav_esp32">ESP32</string>
+    <string name="nav_firmware">Kód &amp; I2C</string>
+
+    <!-- Radar Screen -->
+    <string name="source_meteopress_web">Meteopress Web</string>
+    <string name="source_direct_api">Radar API (Animace)</string>
+    <string name="karvina_coords">49.854°N  18.541°E</string>
+    <string name="karvina_location_label">Karviná · Moravskoslezský kraj</string>
+    <string name="oled_preview_title">OLED 0.96" · 128×64 1-BIT</string>
+    <string name="stream_start">Odesílat živě do ESP32</string>
+    <string name="stream_stop">Zastavit přenos</string>
+    <string name="send_single_frame">Odeslat 1 snímek</string>
+    <string name="capture_now">Zachytit snímek</string>
+    <string name="refresh_radar">Obnovit radar</string>
+    <string name="auto_capture_label">Živý záznam animace z webu</string>
+    <string name="image_pipeline_title">Zpracování pro OLED 128×64</string>
+    <string name="dither_mode_label">Rozklad (Dithering)</string>
+    <string name="threshold_label">Citlivost srážek</string>
+    <string name="fps_label">Rychlost animace</string>
+    <string name="zoom_radius_label">Oblast kolem Karviné</string>
+    <string name="oled_color_label">Barva displeje</string>
+    <string name="hud_toggle_label">Horní lišta (čas &amp; stav)</string>
+    <string name="crosshair_toggle_label">Zaměřovač Karviné &amp; kruhy</string>
+    <string name="invert_toggle_label">Invertovat pixely</string>
+    <string name="meteopress_open_karvina">Vycentrovat Karvinou</string>
+    <string name="meteopress_open_cr">Pohled ČR (z URL)</string>
+
+    <!-- ESP32 Connection Screen -->
+    <string name="esp32_screen_title">Připojení k ESP32</string>
+    <string name="transport_mode_label">Způsob přenosu</string>
+    <string name="transport_wifi_http">Wi-Fi HTTP</string>
+    <string name="transport_wifi_udp">Wi-Fi UDP</string>
+    <string name="transport_bt_spp">Bluetooth SPP</string>
+    <string name="esp32_host_label">IP adresa nebo hostname ESP32</string>
+    <string name="esp32_port_label">Port</string>
+    <string name="esp32_test_connection">Ověřit spojení (PING)</string>
+    <string name="esp32_bt_scan">Načíst spárovaná BT zařízení</string>
+    <string name="esp32_bt_permission_needed">Povolte oprávnění Bluetooth pro výběr spárovaného ESP32.</string>
+    <string name="esp32_bt_grant_permission">Povolit Bluetooth</string>
+    <string name="esp32_oled_hardware_title">Konfigurace I2C OLED</string>
+    <string name="oled_driver_label">Řadič displeje</string>
+    <string name="oled_i2c_addr_label">I2C adresa</string>
+    <string name="oled_buffer_format_label">Formát bufferu (1024 B)</string>
+    <string name="i2c_sda_label">SDA GPIO</string>
+    <string name="i2c_scl_label">SCL GPIO</string>
+
+    <!-- Firmware & Wiring Screen -->
+    <string name="firmware_screen_title">ESP32 Firmware &amp; I2C Zapojení</string>
+    <string name="wiring_card_title">Schéma zapojení I2C (4 vodiče)</string>
+    <string name="firmware_code_title">Připravený ESP32 Sketch (.ino)</string>
+    <string name="export_c_header_title">C pole aktuálního snímku (PROGMEM)</string>
+    <string name="copy_code">Kopírovat</string>
+    <string name="share_code">Sdílet</string>
+    <string name="copied_feedback">Zkopírováno do schránky</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_play_pause">Spustit nebo pozastavit animaci</string>
+    <string name="cd_refresh_radar">Obnovit radarová data</string>
+    <string name="cd_oled_preview">Náhled 128 krát 64 monochromatického OLED displeje s radarem pro Karvinou</string>
+    <string name="cd_wiring_diagram">Schéma zapojení pinů I2C mezi ESP32 a 0.96 OLED displejem</string>
+</resources>
